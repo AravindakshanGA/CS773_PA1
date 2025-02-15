@@ -14,5 +14,5 @@ A string of 0 bits is sent from sender to reciever to mark the start and end of 
 
 
 ### Results
--**Accuracy :**
--**Bandwidth:**
+- **Accuracy :**
+- **Bandwidth:**
