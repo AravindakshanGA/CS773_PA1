@@ -10,7 +10,7 @@
 
 /*
     FILL IN BEFORE STARTING
-        CORE ID :
+        CORE ID : 7
         HIT TIME : 4379323
         MISS TIME : 3382354
 */
@@ -19,7 +19,7 @@ long long arr[ARRAY_SIZE];
 int next_index[ARRAY_SIZE / STRIDE]; 
 long long threshold = 0;
 
-// Fisher-Yates shuffle for pointer chasing
+// Shuffling
 void shuffle_indices(int *indices, int n) {
     for (int i = n - 1; i > 0; i--) {
         int j = rand() % (i + 1);

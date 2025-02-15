@@ -9,7 +9,7 @@
 #include "./utils.h"
 #include "./cacheutils.h"
 
-#define ARRAY_SIZE (24 * 1024 * 1024 / sizeof(long long)) // 48MB   
+#define ARRAY_SIZE (24 * 1024 * 1024 / sizeof(long long)) // 24MB   
 #define STRIDE 1
 #define BITS_PER_CHAR 8
 
@@ -36,7 +36,7 @@ void synchronize_processes() {
 long long arr[ARRAY_SIZE];
 int next_index[ARRAY_SIZE / STRIDE]; 
 
-// Fisher-Yates shuffle for pointer chasing
+// Shuffling
 void shuffle_indices(int *indices, int n) {
     for (int i = n - 1; i > 0; i--) {
         int j = rand() % (i + 1);
