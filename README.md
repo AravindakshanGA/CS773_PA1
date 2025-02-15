@@ -37,6 +37,7 @@ Some modifications were done in the synchronization part to ensure proper data t
 - **Sent Image :** CS773_PA1/task3a/red_heart.jpg
 - **Received Image :** CS773_PA1/task3a/results/output_image_2.jpg
 - **Time Taken :** 22 mins
+- **Accuracy :** 60-70% 
 
 ## Task 3B
 ### Approach
@@ -47,6 +48,7 @@ To share an audio file, similar approach of task 3A is followed except that the 
 - **Sent Audio :** CS773_PA1/task3b/audio.mp3
 - **Received Audio :** CS773_PA1/task3b/results/output_audio.mp3
 - **Time Taken :** 100 mins
+- **Accuracy :** 50-60%
 
 ## Plagiarism Checklist
 1. Have you strictly adhered to the submission guidelines?  
