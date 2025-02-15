@@ -37,3 +37,13 @@ Some modifications were done in the synchronization part to ensure proper data t
 - **Sent Image :** CS773_PA1/task3a/red_heart.jpg
 - **Received Image :** CS773_PA1/task3a/results/output_image.jpg
 - **Time Taken :**
+
+## Task 3B
+### Approach
+To share an audio file, similar approach of task 3A is followed except that the input is a .mp3 file. 
+
+### Results
+#### Audio Transmission
+- **Sent Audio :** CS773_PA1/task3b/audio.mp3
+- **Received Audio :** 
+- **Time Taken :**
