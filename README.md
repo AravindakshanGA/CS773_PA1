@@ -33,6 +33,7 @@ Then, the shared file is used by the receiver to acknowledge the process and sta
 Some modifications were done in the synchronization part to ensure proper data transmission between sender and receiver.
 
 ### Results
-- **Accuracy :** 70% 
-- **Bandwidth:** ??
-
+#### Image Transmission
+- **Sent Image :** CS773_PA1/task3a/red_heart.jpg
+- **Received Image :** CS773_PA1/task3a/results/output_image.jpg
+- **Time Taken :**
