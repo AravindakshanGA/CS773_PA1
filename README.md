@@ -24,3 +24,15 @@ A string of 1 followed by seven 0 bits and eight 1bits are sent from sender to r
 ### Results
 - **Accuracy :** 100% 
 - **Bandwidth:** 1.98 bps
+
+## Task 3A
+### Approach
+To share a heart image, a slightly different approach is used.
+Firstly, Occupancy- based covert channel is used to send the file shared between the two processes.
+Then, the shared file is used by the receiver to acknowledge the process and start receiving bits via Flush-Reload covert channel.
+Some modifications were done in the synchronization part to ensure proper data transmission between sender and receiver.
+
+### Results
+- **Accuracy :** 70% 
+- **Bandwidth:** ??
+
