@@ -11,8 +11,9 @@ To synchronize the covert channel, the x86 instruction **rdtscp()** is used.
 The function **synchronize_processes()** with appropriate no. of clock ticks is used and encoded bits are transmitted from sender to reciever using Flush-Reload method.
 A string of 0 bits is sent from sender to reciever to mark the start and end of the message transmission. 
 
-
-
 ### Results
 - **Accuracy :** 100%
 - **Bandwidth:** 191 bps
+
+## Task 2B
+### Approach
