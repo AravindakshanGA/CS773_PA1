@@ -47,3 +47,9 @@ To share an audio file, similar approach of task 3A is followed except that the 
 - **Sent Audio :** CS773_PA1/task3b/audio.mp3
 - **Received Audio :** 
 - **Time Taken :**
+
+## Plagiarism Checklist
+1. Have you strictly adhered to the submission guidelines?  
+- Yes
+2. Have you received or provided any assistance for this assignment beyond public discussions with peers/TAs?  
+- No
