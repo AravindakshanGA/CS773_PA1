@@ -12,9 +12,9 @@ The function **synchronize_processes()** with appropriate no. of clock ticks is 
 A string of eight 0 bits is sent from sender to reciever to acknowlege the start and end of the message transmission. 
 
 ### Calibration Steps
-- 1. Compilation of sources are made with no compiler optimizations by adding -O0 flag. 
-- 2. Run the calibration.c and get the threshold used to mount the attack. (Credits to the Task 1 source)
-- 3. Update this value into the receiver.c and then use taskset command with core indices to run the sender and receiver. Receiver first and then sender.
+1. Compilation of sources are made with no compiler optimizations by adding -O0 flag. 
+2. Run the calibration.c and get the threshold used to mount the attack. (Credits to the Task 1 source)
+3. Update this value into the receiver.c and then use taskset command with core indices to run the sender and receiver. Receiver first and then sender.
         taskset -c <core_no> <compiled_object_name>
 
 ### Results
@@ -28,9 +28,9 @@ The synchronization approach remains same as that of task 2A. However, there is 
 A string of 1 followed by seven 0 bits and sixteen 1 bits are sent from sender to receiver to acknowlege the start and end of the message transmission.
 
 ### Calibration Steps
-- 1. Compilation of sources are made with no compiler optimizations by adding -O0 flag. 
-- 2. Run the calibration.c first time in the core where your receiver is planned to run and get the threshold (This will be the access threshold, where no other process is involved). Then run the same calibration code in both the sender and receiver code planned and get the threshold. (This will be the miss threshold, where another process is involved in affecting the LLC)
-- 3. Calculate the threshold by averaging the above two values and update this value into the receiver.c (to the threshold variable) and then use taskset command with core indices to run the sender and receiver. Receiver first and then sender.
+1. Compilation of sources are made with no compiler optimizations by adding -O0 flag. 
+2. Run the calibration.c first time in the core where your receiver is planned to run and get the threshold (This will be the access threshold, where no other process is involved). Then run the same calibration code in both the sender and receiver code planned and get the threshold. (This will be the miss threshold, where another process is involved in affecting the LLC)
+3. Calculate the threshold by averaging the above two values and update this value into the receiver.c (to the threshold variable) and then use taskset command with core indices to run the sender and receiver. Receiver first and then sender.
         taskset -c <core_no> <compiled_object_name>
 
 ### Results
